@@ -169,7 +169,15 @@ section {
   gap: 5rem;
   height: 80vh;
 }
-
+.pic {
+  border-radius: 80px;
+  transform: scale(70%) rotate(4deg);
+  filter: drop-shadow(5px 5px 5px black);
+}
+.pic:hover {
+  transform: scale(110%);
+  transition: 1;
+}
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -198,6 +206,9 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+
+  text-shadow: 2px 1px;
+  letter-spacing: 2px;
 }
 
 #socials-container {
@@ -273,7 +284,14 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
-
+.about_con {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: black;
+  text-shadow: 0.5px 0.5px;
+  font-weight: 300;
+}
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -303,7 +321,10 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
-
+.details-container:hover {
+  background-color: black;
+  color: white;
+}
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -349,7 +370,11 @@ article {
   justify-content: space-around;
   gap: 0.5rem;
 }
-
+article h3:hover {
+  transform: scale(110%) rotate(4deg);
+  filter: drop-shadow(5px 5px 5px black);
+  transition: 1s;
+}
 article .icon {
   cursor: default;
 }
