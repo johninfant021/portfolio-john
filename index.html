@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Portfolio-John</title>
+    <link rel="icon" href="./assets/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -15,7 +16,6 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
-          <!--<li><a href="#certification">Certifications</a></li>-->
 
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -30,12 +30,11 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <!-- <li>
-            <a href="#certification" onclick="toggleMenu()">Certifications</a>
-          </li>-->
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -50,11 +49,11 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">John Infant</h1>
-        <p class="section__text__p2">Fullstack Developer</p>
+        <p class="section__text__p2">Upcoming Fullstack Developer</p>
         <div class="btn-container">
           <a
-            class="btn btn-color-2"
             href="./assets/JOHNINFANT_RESUME .pdf"
+            class="btn btn-color-2"
             download="JOHNINFANT_RESUME"
             style="color: white; background-color: rgb(53, 53, 53)"
             >Download CV</a
@@ -217,10 +216,6 @@
         </div>
       </div>
     </section>
-    <!-- <section id="certification">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Certification</h1>
-    </section>-->
 
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
