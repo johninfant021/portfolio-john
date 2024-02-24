@@ -100,4 +100,18 @@
   .text-container {
     text-align: justify;
   }
+  .pro_head {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-img {
+    height: 100px;
+    width: 200px;
+  }
+  .project-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

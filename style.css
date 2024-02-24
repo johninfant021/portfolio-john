@@ -381,8 +381,15 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-#projects {
+#project {
   position: relative;
+}
+.pro_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  column-gap: 20px;
 }
 
 .color-container {
@@ -391,9 +398,10 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  height: 400px;
+  width: 600px;
+  border-style: groove;
+  border-width: 10px;
 }
 
 .project-title {
@@ -404,6 +412,8 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  cursor: pointer;
+  font-size: medium;
 }
 
 /* CONTACT */
